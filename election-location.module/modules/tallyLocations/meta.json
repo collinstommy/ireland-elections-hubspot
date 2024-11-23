@@ -1,0 +1,17 @@
+{
+  "name": "Locations Module",
+  "description": "A responsive two-column layout for displaying location links",
+  "icon": "link",
+  "label": "Election Location",
+  "css_assets": [],
+  "external_js": [],
+  "global": false,
+  "help_text": "",
+  "content_types": [
+    "SITE_PAGE"
+  ],
+  "js_assets": [],
+  "other_assets": [],
+  "smart_type": "NOT_SMART",
+  "tags": []
+}

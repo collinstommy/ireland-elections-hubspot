@@ -1,0 +1,19 @@
+<div class="locations-module">
+  <h1 class="locations-module__title">{{ module.locations_module.module_title }}</h1>
+  <div class="locations-module__container">
+    {% for column in module.locations_module.column_groups %}
+      <div class="locations-module__column">
+        <h2 class="locations-module__column-title">{{ column.column_title }}</h2>
+        <ul class="locations-module__list">
+          {% for location in column.locations %}
+            <li class="locations-module__item">
+              <a href="{{ location.location_url }}" class="locations-module__link" target="_blank" rel="noopener">
+                {{ location.location_name }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+</div>

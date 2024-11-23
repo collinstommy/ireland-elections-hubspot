@@ -1,0 +1,54 @@
+[
+  {
+    "name": "locations_module",
+    "label": "Locations Module",
+    "locked": false,
+    "type": "group",
+    "children": [
+      {
+        "name": "module_title",
+        "label": "Module Title",
+        "type": "text",
+        "default": "Ireland Location Links"
+      },
+      {
+        "name": "column_groups",
+        "label": "Column Groups",
+        "type": "group",
+        "occurrence": {
+          "min": 1
+        },
+        "children": [
+          {
+            "name": "column_title",
+            "label": "Title",
+            "type": "text"
+          },
+          {
+            "name": "locations",
+            "label": "Locations",
+            "type": "group",
+            "occurrence": {
+              "min": 1,
+              "max": null
+            },
+            "children": [
+              {
+                "name": "location_name",
+                "label": "Location Name",
+                "required": true,
+                "type": "text"
+              },
+              {
+                "name": "location_url",
+                "label": "Location URL",
+                "required": true,
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
