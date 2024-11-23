@@ -1,0 +1,12 @@
+{
+  "name": "ireland-elections-hubspot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "hs watch --initial-upload --src . --dest ireland-elections"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

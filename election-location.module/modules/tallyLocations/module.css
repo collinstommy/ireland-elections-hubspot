@@ -33,6 +33,12 @@
       
 .locations-module__item {
   margin: 12px 0;
+}
+      
+.locations-module__link {
+  color: #333333;
+  text-decoration: none;
+  display: block;
   padding: 12px;
   background-color: #f8f9fa;
   border-radius: 4px;
@@ -42,17 +48,8 @@
   align-items: center;
 }
       
-.locations-module__item:hover {
-  background-color: #e9ecef;
-}
-      
-.locations-module__link {
-  color: #333333;
-  text-decoration: none;
-  display: block;
-}
-      
 .locations-module__link:hover {
+  background-color: #e9ecef;
   text-decoration: underline;
 }
 
